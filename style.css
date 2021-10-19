@@ -39,7 +39,6 @@ body {
 }
 
 .heading {
-    border: 2px solid red;
     padding: 0px 55px;
 }
 
@@ -52,4 +51,8 @@ body {
     font-weight: lighter;
     font-size: large;
     color: slategrey;
+}
+
+.annual-plan {
+    
 }
