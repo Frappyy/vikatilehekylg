@@ -39,7 +39,7 @@ body {
 }
 
 .heading {
-    padding: 0px 55px;
+    padding: 15px 55px;
 }
 
 .heading h1 {
@@ -47,6 +47,7 @@ body {
 }
 
 .heading p {
+    margin-top: 10px;
     text-align: center;
     font-weight: lighter;
     font-size: large;
@@ -54,5 +55,8 @@ body {
 }
 
 .annual-plan {
-    
+    background-color: #eceef3;
+    border-radius: 5px;
+    height: 75px;
+    margin: 25px 50px;
 }
