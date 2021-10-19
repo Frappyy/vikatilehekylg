@@ -23,7 +23,7 @@ body {
 .box {
     background-color: rgb(255, 255, 255);
     width: 500px;
-    height: 600px;
+    height: 700px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,8 +55,47 @@ body {
 }
 
 .annual-plan {
-    background-color: #f8f9fe;
+    background-color: hsl(225, 100%, 98%);
     border-radius: 5px;
     height: 75px;
-    margin: 25px 50px;
+    margin: 25px 35px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
+
+.annual-plan img {
+    margin: 15px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.change {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.change li {
+    list-style: none;
+}
+
+.change a{
+    font-weight: bold;
+}
+
+.button {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 350px;
+    margin-left: 75px;
+  }
+
